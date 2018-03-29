@@ -20,6 +20,6 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else 
     puts "Currently serving #{katz_deli.first}."
-    kats_deli.shift
   end
+  kats_deli.shift
 end
