@@ -6,6 +6,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     customers = katz_deli.each_with_index.map {|name, i| "#{i+1}. #{name}"}
-    puts "The line is currently: #{customers.join(" "}"
+    puts "The line is currently: #{customers.join(" ")}"
   end  
 end
