@@ -11,6 +11,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  name = katz_deli.each_with_index.push
+  new_customer = katz_deli.each_with_index.push {|name, i| "#{i} #{name}"
   puts "Welcome, #{name}. You are number #{i+1} in line."
 end
